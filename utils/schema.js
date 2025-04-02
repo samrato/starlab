@@ -9,4 +9,4 @@ export const MockInterview=pgTable('mockInterview', {
     createdBy:varchar('createdBy').notNull(),
     createdAt:text('createdAt').notNull(),
     mockId:varchar('mockId').notNull(),
-})
+});
